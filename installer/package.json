@@ -1,0 +1,24 @@
+{
+  "name": "discordcrypt-installer",
+  "productName": "DiscordCrypt Installer",
+  "description": "Platform installer for the DiscordCrypt and SecureDiscord plugins",
+  "version": "1.0.0",
+  "main": "main.js",
+  "license": "MIT",
+  "author": "leogx9r",
+  "devDependencies": {
+    "electron": "^3.0.5",
+    "electron-packager": "^12.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.com/leogx9r/DiscordCrypt"
+  },
+  "scripts": {
+    "start": "electron .",
+    "package-mac": "electron-packager . --overwrite --asar --platform=darwin --arch=x64 --icon=assets/icons/mac/icon.icns --prune=true --out=release-builds --darwinDarkModeSupport=true",
+    "package-win": "electron-packager . electron-tutorial-app --overwrite --asar --platform=win32 --arch=ia32 --icon=assets/icons/win/icon.ico --prune=true --out=release-builds --version-string.CompanyName=CE --version-string.FileDescription=CE --version-string.ProductName=\"Electron Tutorial App\"",
+    "package-linux": "electron-packager . electron-tutorial-app --overwrite --asar --platform=linux --arch=x64 --icon=assets/icons/png/1024x1024.png --prune=true --out=release-builds",
+    "package-all": "npm run package-mac && npm run package-win && npm run package-linux && npm run start"
+  }
+}

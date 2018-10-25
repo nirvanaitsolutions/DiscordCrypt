@@ -71,5 +71,8 @@ typings/
 # Private key.
 src/*.key
 
+# Installer build files.
+installer/release-builds/*
+
 # Private notes.
 TODO
