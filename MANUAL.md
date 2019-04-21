@@ -666,7 +666,7 @@ We've tried to simplify the process as much as possible but once you get used to
     much easier.
 
 If you still feel confused or want to know something specific,
-    [join our support server](https://discord.gg/3uakNmM) and we'll try to help you out when we're free.
+    [join our support server](https://discord.gg/ChD2e3K) and we'll try to help you out when we're free.
 
 
 
@@ -725,7 +725,7 @@ If you've discovered a bug in the plugin, feel free to create an issue after rea
     [contribution guide](CONTRIBUTING.md). Please be as detailed as possible when submitting
     your issues.
 
-We also have a [Discord Server](https://discord.gg/3uakNmM) for any discussion
+We also have a [Discord Server](https://discord.gg/ChD2e3K) for any discussion
     related to **DiscordCrypt™** and for general user support.
 
 
